@@ -87,7 +87,8 @@ endmodule
 ```
 ## Simulated Output Gate Level Modelling
 
-_______ Here Paste the Simulated output  ___________
+![Screenshot 2025-02-24 153316](https://github.com/user-attachments/assets/f320356e-5e45-4d52-89b8-a6a1ea77a6ab)
+
 
 ### 4:1 MUX Data Flow Implementation
 ```verilog
@@ -108,7 +109,8 @@ endmodule
 ```
 ## Simulated Output Data Flow Modelling
 
-_______ Here Paste the Simulated output  ___________
+![Screenshot 2025-02-24 162456](https://github.com/user-attachments/assets/e34be3d5-965f-4036-ad0b-7d355cffbea2)
+
 
 ### 4:1 MUX Behavioral Implementation
 ```verilog
@@ -134,7 +136,7 @@ endmodule
 ```
 ## Simulated Output Behavioral Modelling
 
-_______ Here Paste the Simulated output  ___________
+![Screenshot 2025-03-15 094224](https://github.com/user-attachments/assets/d18baa9f-53c1-4258-af34-78925f84fc85)
 
 
 ### 4:1 MUX Structural Implementation
@@ -171,7 +173,8 @@ endmodule
 ```
 ## Simulated Output Structural Modelling
 
-_______ Here Paste the Simulated output  ___________
+![Screenshot 2025-03-15 095437](https://github.com/user-attachments/assets/0720f6c4-ef68-42e4-9d55-2f15c3d26db1)
+
 
 ### Testbench Implementation
 ```verilog
@@ -208,6 +211,11 @@ Time=0 | S1=0 S0=0 | Y_gate=0 | Y_dataflow=0 | Y_behavioral=0 | Y_structural=0
 Time=10 | S1=0 S0=1 | Y_gate=0 | Y_dataflow=0 | Y_behavioral=0 | Y_structural=0
 Time=20 | S1=1 S0=0 | Y_gate=0 | Y_dataflow=0 | Y_behavioral=0 | Y_structural=0
 ```
+### OUTPUT
+
+![Screenshot 2025-03-15 131324](https://github.com/user-attachments/assets/8c1a7b05-f382-427d-b037-ad2354d05bbe)
+
+
 **CONCLUSION**
 
 In this experiment, a 4:1 Multiplexer was successfully designed and simulated using Verilog HDL across four different modeling styles: Gate-Level, Data Flow, Behavioral, and Structural.The simulation results verified the correct functionality of the MUX, with all implementations producing identical outputs for the given input conditions.
